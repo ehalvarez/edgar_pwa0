@@ -1,6 +1,6 @@
 {
-  "name": "Hello World",
-  "short_name": "Hello",
+  "name": "SSRA Mobil",
+  "short_name": "SSRA",
   "icons": [{
     "src": "images/hello-icon-128.png",
       "sizes": "128x128",
@@ -26,9 +26,9 @@
       "sizes": "512x512",
       "type": "image/png"
     }],
-  "lang": "en-US",
+  "lang": "es-AR",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "white",
-  "theme_color": "white"
+  "background_color": "blue",
+  "theme_color": "blue"
 }
