@@ -22,7 +22,7 @@ html,
 .title {
   font-size: 3rem;
 }
-.button {
+.btnLink {
   display: inline-block;
   padding: 15px 25px;
   font-size: 2rem;
@@ -36,7 +36,7 @@ html,
   box-shadow: 0 9px #999;
 }
 
-.button:active {
+.btnLink:active {
   color: black;
   background-color: #7db1e5;
   box-shadow: 0 5px #666;
