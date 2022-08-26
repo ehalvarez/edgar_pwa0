@@ -22,3 +22,23 @@ html,
 .title {
   font-size: 3rem;
 }
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #002242;
+  background-color: #d5e5f6;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+
+.button:active {
+  color: black;
+  background-color: #7db1e5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
