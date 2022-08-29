@@ -14,17 +14,20 @@
       "sizes": "152x152",
       "type": "image/png"
     }, {
-      "src": "images/azul192.png",
+      "src": "images/azul192x.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }, {
-      "src": "images/hello-icon-256.png",
+      "src": "images/azul256x.png",
       "sizes": "256x256",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }, {
-      "src": "images/hello-icon-512.png",
+      "src": "images/azul512x.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose"; "any"
     }],
   "lang": "es-AR",
   "start_url": "./index.html",
