@@ -27,7 +27,7 @@
       "src": "images/azul512x.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose"; "any"
+      "purpose": "any"
     }],
   "lang": "es-AR",
   "start_url": "./index.html",
