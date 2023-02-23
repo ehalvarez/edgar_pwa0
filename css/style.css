@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: #0066CC;
+  background-color: #0088CE;
 }
 
 /* Make content area fill the entire browser window */
@@ -11,6 +11,15 @@ html,
   margin: 0;
   padding: 0;
   width: 100%;
+}
+
+.fullscreen_bl {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #FFFFFF;
 }
 
 /* Center the content in the browser window */
