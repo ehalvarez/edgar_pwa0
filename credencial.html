@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <title>Sindicato del Seguro de la Rep&uacute;blica Argentina</title>
         <meta charset="utf-8">
-        <title>Sindicato del Seguro</title>
-        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/credi.css">
+        <link rel="icon" href="favicon22_.png" type="image/png" />
     </head>
-    <body class="fullscreen_bl">
-        <div class="container">
+    <body onload="mostrar_afil()">
+        <script src="js/taos.js"></script>
+        <div class="contenedor">
             <img src="./images/credigi.png" alt="Credencial">
+            <div class="centrado">
+                <table border="0" width="440">
+                    <tr><td style="height: 100px;"></td></tr>
+                    <tr>
+                        <td>
+                        <table border="0" width="440">
+                            <tr>
+                                <td class="celDer">Nro.Afiliado:</td>
+                                <td class="celIzq"><input type="text" id="nroafi" name="nroafi" title="Numero de afiliado" readonly></td>
+                            </tr>
+                            <tr>
+                                <td class="celDer">Nombre:</td>
+                                <td class="celIzq"><input type="text" id="nomben" name="nomben" title="Apellido y nombres" readonly></td>
+                            </tr>
+                            <tr>
+                                <td class="celDer">DNI:</td>
+                                <td class="celIzq"><input type="text" id="numdoc" name="numdoc" title="Numero de documento" readonly></td>
+                            </tr>
+                            <tr>
+                                <td class="celDer">Fecha Alta:</td>
+                                <td class="celIzq"><input type="text" id="fealsi" name="fealsi" title="Fecha de alta al sindicato" readonly></td>
+                            </tr>
+                        </table>
+                        </td>
+                    </tr>
+                    <tr><td align="right" style="padding: 40px 0 30px 0;">
+                        <img src="./images/logo_ssra_2022.png" alt="SSRA" width="150" height="50" style="display: block; color: white; font-size: 3
+6px;">
+                    </td></tr>
+                    <tr><td style="height: 400px;"></td></tr>
+                    <tr>
+                        <td>
+                            <button type="button" onclick="goto_destino_id()">Regresar</button>
+                            <p id="destino" style="display:none;">index.html</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </body>
 </html>
