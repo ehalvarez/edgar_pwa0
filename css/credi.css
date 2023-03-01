@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    background-color: #FFFFFF;
+  }
+  
+  .contenedor {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+  }
+  
+  .centrado{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+input {
+    border: none;
+    background-color: #04488E;
+    color: #FFFFFF;
+    font-size: 120%;
+    width: 100%;
+  }
+
+  button {
+    background-color: #0088CE;
+    width: 180px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .celIzq {
+    text-align: left;
+  }
+  
+  .celDer {
+    text-align: right;
+  }
